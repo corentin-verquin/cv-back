@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_base_icons",
+  "info": {
+    "name": "icon",
+    "icon": "grin-beam"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    }
+  }
+}

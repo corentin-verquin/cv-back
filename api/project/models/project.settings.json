@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.project"
+    }
+  }
+}

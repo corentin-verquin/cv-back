@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_base_skills",
+  "info": {
+    "name": "Skill",
+    "icon": "chart-area"
+  },
+  "options": {},
+  "attributes": {
+    "Skill": {
+      "type": "integer"
+    },
+    "Icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.icon"
+    }
+  }
+}

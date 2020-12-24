@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Tel": {
+      "type": "string"
+    },
+    "Github": {
+      "type": "string"
+    },
+    "Skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.skill"
+    },
+    "Experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.information"
+    },
+    "Education": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.information"
+    }
+  }
+}

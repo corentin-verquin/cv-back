@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_base_projects",
+  "info": {
+    "name": "Project",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Technos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.tecno"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_base_information_items",
+  "info": {
+    "name": "Information-item",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "EndDate": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
