@@ -5116,7 +5116,7 @@ graphql-playground-html@^1.6.29:
   dependencies:
     xss "^1.0.6"
 
-graphql-playground-middleware-koa@^1.6.20:
+graphql-playground-middleware-koa@^1.6.21:
   version "1.6.21"
   resolved "https://registry.yarnpkg.com/graphql-playground-middleware-koa/-/graphql-playground-middleware-koa-1.6.21.tgz#8963342ed06406a1471947e5de1565e0e5bdaaaa"
   integrity sha512-MswXglk3lfKN9OH2tYYZTrSLgOLEyw0onIxHmqYuBxRnMaXp79HSH/cvgk0oRK4N+4HjJZzSkcdhxIG0Wg8qhw==
@@ -10092,10 +10092,10 @@ strapi-plugin-email@3.4.1:
     strapi-provider-email-sendmail "3.4.1"
     strapi-utils "3.4.1"
 
-strapi-plugin-graphql@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.4.1.tgz#5df5e49c1d225701a36ac06276ea9bd142a5c362"
-  integrity sha512-ROv+RbtLNwl/zkpTlPUxaLMzFQUpGk9CX/B3tq38HDYuFvYFcjjHg6E+FRVWkxK0z7XbWiv0C3zhmDM9iYN+mA==
+strapi-plugin-graphql@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.4.2.tgz#67cb3f964d0490ecf3c8bfc99def798763bf5006"
+  integrity sha512-/zXEnI9vRtmasGj4jl0OIGQjbbI/BmzUGR/KZeMt2ZMemqjUAGN6ocpfnQCNDSgajcZSibuZsag9U+WjEUdIUA==
   dependencies:
     "@apollo/federation" "^0.20.7"
     apollo-server-koa "2.18.2"
@@ -10104,7 +10104,7 @@ strapi-plugin-graphql@3.4.1:
     graphql "15.4.0"
     graphql-depth-limit "^1.1.0"
     graphql-iso-date "^3.6.1"
-    graphql-playground-middleware-koa "^1.6.20"
+    graphql-playground-middleware-koa "^1.6.21"
     graphql-tools "4.0.8"
     graphql-type-json "0.3.2"
     graphql-type-long "^0.1.1"
@@ -10112,7 +10112,7 @@ strapi-plugin-graphql@3.4.1:
     koa-compose "^4.1.0"
     lodash "4.17.20"
     pluralize "^8.0.0"
-    strapi-utils "3.4.1"
+    strapi-utils "3.4.2"
 
 strapi-plugin-upload@3.4.1:
   version "3.4.1"
@@ -10210,6 +10210,18 @@ strapi-utils@3.4.1:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
     lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.2.tgz#44e92f22c31f0e39667aa7b33078dc89bc07baad"
+  integrity sha512-nLJ5KqefvPzqENtG2Gx3AuseLUqmBV1/zgTKJJJNEFSi2wR8XFpstJMYiMT39BR2naksf7EuiOo1y/3ds1qTyQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
