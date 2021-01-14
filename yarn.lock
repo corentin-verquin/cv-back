@@ -2437,7 +2437,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.21.0:
+axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
   integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
@@ -4653,7 +4653,7 @@ figures@^3.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-file-loader@^6.1.0:
+file-loader@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-6.2.0.tgz#baef7cf8e1840df325e4390b4484879480eebe4d"
   integrity sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==
@@ -9845,10 +9845,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^1.6.0"
 
-strapi-admin@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.4.1.tgz#9cf81295aab4131fb0d09e40b1fea39ae069cc8a"
-  integrity sha512-GcfwHav904pzyF5BrNka30OzlQgqu0AtkTG183i/sq2xTcI8kYbd24vwZf7+EJtQTR16SfCPwMfFxCD5mcYPQA==
+strapi-admin@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.4.3.tgz#85b49d3582b4f441d17428035d740ba7cde1487a"
+  integrity sha512-lJPQEfF3gcOLUpmzsrIBChHM1EBbL6U9q2bqD71mcGByzWW8gbaEbMqTYxxqU7SDDAIfK0l224BKskFFvKPEFw==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-async-generator-functions" "^7.10.5"
@@ -9860,12 +9860,12 @@ strapi-admin@3.4.1:
     "@babel/preset-env" "^7.9.5"
     "@babel/preset-react" "^7.9.4"
     "@babel/runtime" "^7.9.2"
-    "@buffetjs/core" "3.3.3"
-    "@buffetjs/custom" "3.3.3"
-    "@buffetjs/hooks" "3.3.3"
-    "@buffetjs/icons" "3.3.3"
-    "@buffetjs/styles" "3.3.3"
-    "@buffetjs/utils" "3.3.3"
+    "@buffetjs/core" "3.3.3-next.2"
+    "@buffetjs/custom" "3.3.3-next.2"
+    "@buffetjs/hooks" "3.3.3-next.2"
+    "@buffetjs/icons" "3.3.3-next.2"
+    "@buffetjs/styles" "3.3.3-next.2"
+    "@buffetjs/utils" "3.3.3-next.2"
     "@casl/ability" "^4.1.5"
     "@fortawesome/fontawesome-free" "^5.11.2"
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
@@ -9873,7 +9873,7 @@ strapi-admin@3.4.1:
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@fortawesome/react-fontawesome" "^0.1.12"
     autoprefixer "^9.8.6"
-    axios "^0.21.0"
+    axios "^0.21.1"
     babel-loader "^8.1.0"
     bcryptjs "^2.4.3"
     bootstrap "^4.5.3"
@@ -9884,7 +9884,7 @@ strapi-admin@3.4.1:
     css-loader "^2.1.1"
     duplicate-package-checker-webpack-plugin "^3.0.0"
     execa "^1.0.0"
-    file-loader "^6.1.0"
+    file-loader "^6.2.0"
     font-awesome "^4.7.0"
     formik "^2.2.5"
     friendly-errors-webpack-plugin "^1.7.0"
@@ -9900,7 +9900,7 @@ strapi-admin@3.4.1:
     jsonwebtoken "8.5.1"
     koa-compose "4.1.0"
     koa-passport "4.1.3"
-    lodash "4.17.19"
+    lodash "4.17.20"
     match-sorter "^4.0.2"
     mini-css-extract-plugin "^0.6.0"
     moment "^2.29.1"
@@ -9932,8 +9932,8 @@ strapi-admin@3.4.1:
     sanitize.css "^4.1.0"
     semver "7.3.4"
     sift "13.1.10"
-    strapi-helper-plugin "3.4.1"
-    strapi-utils "3.4.1"
+    strapi-helper-plugin "3.4.3"
+    strapi-utils "3.4.3"
     style-loader "^0.23.1"
     styled-components "^5.0.0"
     terser-webpack-plugin "^1.2.3"
@@ -10100,6 +10100,33 @@ strapi-helper-plugin@3.4.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.4.2.tgz#3133110604c01a3205b8ae5b5116e7cf81a02577"
   integrity sha512-LqN/D4kR8QKR5ocS/F62DsolrxaCO8YEsygfidMLYll6Gjrv0MdTLvko1jTst7Gv5nZsnonF0AEKqZ7TMBbzdA==
+  dependencies:
+    "@buffetjs/core" "3.3.3-next.2"
+    "@buffetjs/custom" "3.3.3-next.2"
+    "@buffetjs/hooks" "3.3.3-next.2"
+    "@buffetjs/icons" "3.3.3-next.2"
+    "@buffetjs/styles" "3.3.3-next.2"
+    "@buffetjs/utils" "3.3.3-next.2"
+    bootstrap "^4.5.3"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.20"
+    moment "^2.29.1"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.5.0"
+
+strapi-helper-plugin@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.4.3.tgz#9c2ce2aff526a8fc3a2acb7a829cb4db381576ee"
+  integrity sha512-TTfrC4nc+Zo2bftJn1yL4o5WCXi+R5SJDkMgV8paqGmHZSwgp610hpUt+4P9fMBtXGafEH5LUsTYbkdju9+Org==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
