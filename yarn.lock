@@ -1272,10 +1272,10 @@
   dependencies:
     extend "^3.0.0"
 
-"@purest/providers@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@purest/providers/-/providers-1.0.2.tgz#650b5e8baeafb6849d5680390ce827b982ac81e2"
-  integrity sha512-B2xE92kfLneJI7noP2Gne/InfICMK6hHlktZsg7avPjawWeT3MB5qfFqnX1MFVmhlq28LXvCxzK67Rs5uvhTHg==
+"@purest/providers@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@purest/providers/-/providers-1.0.4.tgz#e405971181d903b1c9b513c13d9e670666120396"
+  integrity sha512-c+OxB8POBW00VG/exqYoh4/ryru48SZzN+uQkg+qK20iDeJ0Gr8nb1QNRuDmtLBJxOkRAze3zk04FctnE3joAw==
 
 "@react-dnd/asap@^4.0.0":
   version "4.0.0"
@@ -10205,10 +10205,10 @@ strapi-plugin-upload@3.4.4:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.4.3.tgz#4b1f781e32f82651f708583f0b3dd23929036d00"
-  integrity sha512-v6BycFPejtxTDu/6lAORZGP4v/9EnMeo1LcWqYou4+9UrutrID8t8fIPyAL4y10nnXpS/zh++/HNQUoT90LRYg==
+strapi-plugin-users-permissions@3.4.4:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.4.4.tgz#7f81d97dbc2d0c533c17c879638cd2563f03fa06"
+  integrity sha512-vz6XVbJxTuEhzWo7Nabde/IAFt+tpu31DbzbVHf0WvCs8n+I0omAcYXplq/XrcxC77Kk9K6x6ZG0yEMee1McYg==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
@@ -10216,7 +10216,7 @@ strapi-plugin-users-permissions@3.4.3:
     "@buffetjs/icons" "3.3.3-next.2"
     "@buffetjs/styles" "3.3.3-next.2"
     "@buffetjs/utils" "3.3.3-next.2"
-    "@purest/providers" "^1.0.2"
+    "@purest/providers" "1.0.4"
     bcryptjs "^2.4.3"
     grant-koa "5.4.8"
     immutable "^3.8.2"
@@ -10233,8 +10233,8 @@ strapi-plugin-users-permissions@3.4.3:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.4.3"
-    strapi-utils "3.4.3"
+    strapi-helper-plugin "3.4.4"
+    strapi-utils "3.4.4"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.4.3:
