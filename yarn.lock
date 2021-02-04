@@ -10054,6 +10054,33 @@ strapi-helper-plugin@3.4.5:
     styled-components "^5.0.0"
     whatwg-fetch "^3.5.0"
 
+strapi-helper-plugin@3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.4.6.tgz#3c6a1d552690770248503dbcb204af2d4dff309e"
+  integrity sha512-sAUFvVxrh6YRcr6lg+n159I/DZJj7srgrYGIOAxPcgFgvuE49Dnb1MkbYAK4mhDd7chuHg4JrOt26xmSfUdu/A==
+  dependencies:
+    "@buffetjs/core" "3.3.3-next.2"
+    "@buffetjs/custom" "3.3.3-next.2"
+    "@buffetjs/hooks" "3.3.3-next.2"
+    "@buffetjs/icons" "3.3.3-next.2"
+    "@buffetjs/styles" "3.3.3-next.2"
+    "@buffetjs/utils" "3.3.3-next.2"
+    bootstrap "^4.5.3"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.20"
+    moment "^2.29.1"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.5.0"
+
 strapi-plugin-content-manager@3.4.5:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.5.tgz#2bca00a2337c7bd3e3f9b45429189d8a6aac82b8"
@@ -10199,10 +10226,10 @@ strapi-plugin-upload@3.4.5:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.4.5:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.4.5.tgz#9acb8b32c5de3311e883f1661497d5f6c5b9f340"
-  integrity sha512-rugO7XzwWpDkaiYXc83SdYQThwWAPekM95k3CPO8nV0ei2v+EC8pcR4TLIjp6n0CJxinFpMxKrfgBjKlLDSgZw==
+strapi-plugin-users-permissions@3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.4.6.tgz#4c1edcba5d286d0c22b56464cf2f53c574c8677c"
+  integrity sha512-QKfLOof6ZDKO4VBN07267jM2xdx9SdZWyqp8cw+TAt2oQP5zZQ+bWwVLfxx4gQhg04wiwBOMu/EOe4B0V+JTQQ==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
@@ -10227,8 +10254,8 @@ strapi-plugin-users-permissions@3.4.5:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.4.5"
-    strapi-utils "3.4.5"
+    strapi-helper-plugin "3.4.6"
+    strapi-utils "3.4.6"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.4.5:
@@ -10256,6 +10283,18 @@ strapi-utils@3.4.5:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.5.tgz#138665a4852c9c7c618bc537b2d65c70aaff3926"
   integrity sha512-sRkCtnIt6BWc7rKJsg3e0bGFwS09phLYFU2qFEvMLuhGmPremjt+VyBn57cdung7bsMkJ5yQF5JA0e9w4LYYPQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.6.tgz#82c90aa25291df7395d651e97b74e4e5f350468d"
+  integrity sha512-iKJWn3qOJJUqXD1ePteLCinQ4hI2+7W2L1X2IpzywstAjosTvvhLqDy3bdo5nB7JGWrg6OgG+EiLlBjyWeTzbg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
