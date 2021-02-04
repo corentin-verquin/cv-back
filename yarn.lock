@@ -10123,10 +10123,10 @@ strapi-helper-plugin@3.4.6:
     styled-components "^5.0.0"
     whatwg-fetch "^3.5.0"
 
-strapi-plugin-content-manager@3.4.5:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.5.tgz#2bca00a2337c7bd3e3f9b45429189d8a6aac82b8"
-  integrity sha512-+pSkqqZPCXqz15OLhHtKfh/0OhbIJhJzrbA+WmvU6tTEcDz6zu9e6rDsx1uXInLC1cY7AlRXczA5Nzv0VYxceg==
+strapi-plugin-content-manager@3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.6.tgz#af66bbca501f0e165cdff2d74ef6d72f86d6f735"
+  integrity sha512-afeszN+Arbb2vMiyv5pQPX5jV/KNIzQ9axcccb1BE1i2nY4XiiwhUIKu55sL9A2V2wchJtjR8AUWbJALcJwwTw==
   dependencies:
     "@buffetjs/core" "3.3.3-next.2"
     "@buffetjs/custom" "3.3.3-next.2"
@@ -10165,8 +10165,8 @@ strapi-plugin-content-manager@3.4.5:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.1.1"
-    strapi-helper-plugin "3.4.5"
-    strapi-utils "3.4.5"
+    strapi-helper-plugin "3.4.6"
+    strapi-utils "3.4.6"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.4.6:
