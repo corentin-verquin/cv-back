@@ -1412,7 +1412,7 @@
   dependencies:
     extend "^3.0.0"
 
-"@purest/providers@1.0.4":
+"@purest/providers@^1.0.2":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@purest/providers/-/providers-1.0.4.tgz#e405971181d903b1c9b513c13d9e670666120396"
   integrity sha512-c+OxB8POBW00VG/exqYoh4/ryru48SZzN+uQkg+qK20iDeJ0Gr8nb1QNRuDmtLBJxOkRAze3zk04FctnE3joAw==
@@ -10385,18 +10385,18 @@ strapi-plugin-upload@3.5.0:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.4.6:
-  version "3.4.6"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.4.6.tgz#4c1edcba5d286d0c22b56464cf2f53c574c8677c"
-  integrity sha512-QKfLOof6ZDKO4VBN07267jM2xdx9SdZWyqp8cw+TAt2oQP5zZQ+bWwVLfxx4gQhg04wiwBOMu/EOe4B0V+JTQQ==
+strapi-plugin-users-permissions@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.5.0.tgz#42dbf91567abc667d653c21484ac5e86cc287f6d"
+  integrity sha512-MMLE2Iq5DZ+v4R6rXfP7O7EoK/C1FKUw2ZBTi6UNwXbGpJQEQ4GaHU7l8fNT70mkPiyEZEqsiYk+IKSdpO+z+A==
   dependencies:
-    "@buffetjs/core" "3.3.3-next.2"
-    "@buffetjs/custom" "3.3.3-next.2"
-    "@buffetjs/hooks" "3.3.3-next.2"
-    "@buffetjs/icons" "3.3.3-next.2"
-    "@buffetjs/styles" "3.3.3-next.2"
-    "@buffetjs/utils" "3.3.3-next.2"
-    "@purest/providers" "1.0.4"
+    "@buffetjs/core" "3.3.4"
+    "@buffetjs/custom" "3.3.4"
+    "@buffetjs/hooks" "3.3.4"
+    "@buffetjs/icons" "3.3.4"
+    "@buffetjs/styles" "3.3.4"
+    "@buffetjs/utils" "3.3.4"
+    "@purest/providers" "^1.0.2"
     bcryptjs "^2.4.3"
     grant-koa "5.4.8"
     immutable "^3.8.2"
@@ -10413,8 +10413,8 @@ strapi-plugin-users-permissions@3.4.6:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.4.6"
-    strapi-utils "3.4.6"
+    strapi-helper-plugin "3.5.0"
+    strapi-utils "3.5.0"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.5.0:
