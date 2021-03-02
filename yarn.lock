@@ -10140,10 +10140,10 @@ strapi-helper-plugin@3.5.2:
     styled-components "^5.2.1"
     whatwg-fetch "^3.5.0"
 
-strapi-plugin-content-manager@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.5.1.tgz#197a3657c62f5ef1db13c047fdd9e0da7668b6bf"
-  integrity sha512-nrl/UoHkDUfORHHZpS6W7TzsLvInw9OFnZeY4Jp2oBwFKUAGc2CcWf9SXyGKnWGRBalEaja6Zgg5jO1QfAhxkQ==
+strapi-plugin-content-manager@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.5.2.tgz#ed8b6dabff3a04772f01a373795481bd211a468c"
+  integrity sha512-1lHYPZKKfD7Nrv2osUvMBG+esDW6aeIKqG5Vz8HJ45l8Uuw2dj49wHDV5Z2UjzYvPGesRJEot/X6D9OzVLUbKw==
   dependencies:
     "@buffetjs/core" "3.3.4"
     "@buffetjs/custom" "3.3.4"
@@ -10173,7 +10173,7 @@ strapi-plugin-content-manager@3.5.1:
     react-dom "^16.9.0"
     react-fast-compare "^3.2.0"
     react-intl "4.5.0"
-    react-redux "^7.0.2"
+    react-redux "^7.2.2"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
@@ -10181,8 +10181,8 @@ strapi-plugin-content-manager@3.5.1:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.1.1"
-    strapi-helper-plugin "3.5.1"
-    strapi-utils "3.5.1"
+    strapi-helper-plugin "3.5.2"
+    strapi-utils "3.5.2"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.5.1:
