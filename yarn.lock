@@ -8522,10 +8522,10 @@ rc@1.2.8, rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-copy-to-clipboard@^5.0.1:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.2.tgz#d82a437e081e68dfca3761fbd57dbf2abdda1316"
-  integrity sha512-/2t5mLMMPuN5GmdXo6TebFa8IoFxZ+KTDDqYhcDm0PhkgEzSxVvIX26G20s1EB02A4h2UZgwtfymZ3lGJm0OLg==
+react-copy-to-clipboard@^5.0.1, react-copy-to-clipboard@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/react-copy-to-clipboard/-/react-copy-to-clipboard-5.0.3.tgz#2a0623b1115a1d8c84144e9434d3342b5af41ab4"
+  integrity sha512-9S3j+m+UxDZOM0Qb8mhnT/rMR0NGSrj9A/073yz2DSxPMYhmYFBMYIdI2X4o8AjOjyFsSNxDRnCX6s/gRxpriw==
   dependencies:
     copy-to-clipboard "^3"
     prop-types "^15.5.8"
@@ -10249,10 +10249,10 @@ strapi-plugin-graphql@3.5.2:
     pluralize "^8.0.0"
     strapi-utils "3.5.2"
 
-strapi-plugin-upload@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.5.1.tgz#0483401963360e6820c7b7a1ff20a0bbaf2a3636"
-  integrity sha512-elQLqUWMcv8Ze6FyNDsaTM6rJpfdKqsWzCfDqEEqDW3rvQ+5lZ2n2Vwm4fzK3EQE6WFnCx6vR70zmJsIZAHZeg==
+strapi-plugin-upload@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.5.2.tgz#c1f53cb9b6940b494fc951afced3e3ab953e2d1f"
+  integrity sha512-qrmLoPmfpbTewSb0kYwvYXuslLO6EEhyLF+abLcYoxiQNtk/vNdwVNMepS+/qE9ZHYOl5M4P/T8L5OGnDkyypQ==
   dependencies:
     "@buffetjs/core" "3.3.4"
     "@buffetjs/custom" "3.3.4"
@@ -10270,17 +10270,17 @@ strapi-plugin-upload@3.5.1:
     lodash "4.17.20"
     node-fetch "2.6.1"
     react "^16.13.1"
-    react-copy-to-clipboard "^5.0.1"
+    react-copy-to-clipboard "^5.0.3"
     react-dom "^16.9.0"
     react-intl "4.5.0"
-    react-redux "^7.0.2"
+    react-redux "^7.2.2"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.27.1"
-    strapi-helper-plugin "3.5.1"
-    strapi-provider-upload-local "3.5.1"
-    strapi-utils "3.5.1"
+    strapi-helper-plugin "3.5.2"
+    strapi-provider-upload-local "3.5.2"
+    strapi-utils "3.5.2"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10332,10 +10332,10 @@ strapi-provider-upload-aws-s3@^3.5.1:
     aws-sdk "2.785.0"
     lodash "4.17.20"
 
-strapi-provider-upload-local@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.1.tgz#3fcfb316d7b6a69c96896aa8f1b470fb1a6ca778"
-  integrity sha512-vMydP5XB7mjbug2tVACDjlKC3atHzyqZ80ZPqrFunRwuM/c+yir0OGDSysvFIfbsDix4mguzxTG6RUwDqQ1xtw==
+strapi-provider-upload-local@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.2.tgz#fbb3400213e7829885a16b0503f93518f3a74504"
+  integrity sha512-DVEfAiO6tUNPw9xblk7z+wFnR0Z5tt8qBQ3gs9al/yeOwQXZmF3/IkKyPuAtaNhXNYe3xg9lzmwMSS8Xu2dgfg==
 
 strapi-utils@3.5.1:
   version "3.5.1"
