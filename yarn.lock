@@ -8872,7 +8872,7 @@ react-intl@4.5.0:
     intl-messageformat-parser "^5.0.0"
     shallow-equal "^1.2.1"
 
-react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.9.0:
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -8926,17 +8926,6 @@ react-portal@^4.2.0:
   integrity sha512-fE9kOBagwmTXZ3YGRYb4gcMy+kSA+yLO0xnPankjRlfBv4uCpFXqKPfkpsGQQR15wkZ9EssnvTOl1yMzbkxhPQ==
   dependencies:
     prop-types "^15.5.8"
-
-react-redux@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.0.tgz#f970f62192b3981642fec46fd0db18a074fe879d"
-  integrity sha512-EvCAZYGfOLqwV7gh849xy9/pt55rJXPwmYvI4lilPM5rUT/1NxuuN59ipdBksRVSvz0KInbPnp4IfoXJXCqiDA==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    hoist-non-react-statics "^3.3.0"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
-    react-is "^16.9.0"
 
 react-redux@7.2.2, react-redux@^7.2.2:
   version "7.2.2"
@@ -10264,15 +10253,6 @@ strapi-database@3.5.2:
     strapi-utils "3.5.2"
     verror "^1.10.0"
 
-strapi-generate-api@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.5.1.tgz#235641740b5c0971a34e6aeab63f8c5872b904af"
-  integrity sha512-KePAIi71xjhEmceiC5Y129S40RiyXmLjw+RUvk5BmOg4B4I9WEh3kA31spdqy2HBpz9rjxg6EkFVqY1kzOyddQ==
-  dependencies:
-    lodash "4.17.20"
-    pluralize "^8.0.0"
-    strapi-utils "3.5.1"
-
 strapi-generate-api@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.5.2.tgz#9578a36563e2467b2935d462593a6c1325702a6c"
@@ -10342,17 +10322,6 @@ strapi-generate-service@3.5.2:
     lodash "4.17.20"
     strapi-utils "3.5.2"
 
-strapi-generate@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.5.1.tgz#44477bb75b692a4cf597718f0d705c6a2af2bdde"
-  integrity sha512-ihhLUVAHjin8wF+MOQtdUb+2H19JcnPcWmaWvaylPL8AWEN/uSen4+w8dbANEPVEFoGY1r75+2/H+aNZhamyPQ==
-  dependencies:
-    async "^2.6.2"
-    fs-extra "^9.0.1"
-    lodash "4.17.20"
-    reportback "^2.0.2"
-    strapi-utils "3.5.1"
-
 strapi-generate@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.5.2.tgz#ae400511e7977c680d9a20410239eb62cdab4487"
@@ -10363,33 +10332,6 @@ strapi-generate@3.5.2:
     lodash "4.17.20"
     reportback "^2.0.2"
     strapi-utils "3.5.2"
-
-strapi-helper-plugin@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.5.1.tgz#f0391628d459c69c3a4d65808dd00cce70e08cc0"
-  integrity sha512-OgjVXzCziUFE9lvF9bFhVZhnof94u4WfOCMmfBV3dTir8WWGuWKQiBHctYBbysTnSFrmh2iJnTGg5FsXLreB6A==
-  dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
-    bootstrap "^4.5.3"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.20"
-    moment "^2.29.1"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.0.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.0.0"
-    whatwg-fetch "^3.5.0"
 
 strapi-helper-plugin@3.5.2:
   version "3.5.2"
@@ -10463,10 +10405,10 @@ strapi-plugin-content-manager@3.5.2:
     strapi-utils "3.5.2"
     yup "^0.27.0"
 
-strapi-plugin-content-type-builder@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.5.1.tgz#8b72cf28224a9b5e03fefb823bbf14fc7bbe9182"
-  integrity sha512-CWx4aOSiVobTGbttZygmL+emJYMsgwTnoZCbUd7Kgz6cnoRlE88SC95WWtKs2c5vOVdQUJkR3uLIHlk70zHjvw==
+strapi-plugin-content-type-builder@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.5.2.tgz#ec1ff795cd4f9afb345e57705988ddac343cc4b4"
+  integrity sha512-cP5C+aZJm23/ppcbSCGdglGBXclg5u0HT/t65jqCaWzyAAcIrYDBbJkYN1LcbMAsqa33DdjIBDaV4L3Xg2kVfg==
   dependencies:
     "@buffetjs/core" "3.3.4"
     "@buffetjs/custom" "3.3.4"
@@ -10482,17 +10424,17 @@ strapi-plugin-content-type-builder@3.5.1:
     react "^16.13.1"
     react-dom "^16.9.0"
     react-intl "4.5.0"
-    react-redux "7.2.0"
+    react-redux "7.2.2"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.5.1"
-    strapi-generate-api "3.5.1"
-    strapi-helper-plugin "3.5.1"
-    strapi-utils "3.5.1"
+    strapi-generate "3.5.2"
+    strapi-generate-api "3.5.2"
+    strapi-helper-plugin "3.5.2"
+    strapi-utils "3.5.2"
     yup "^0.27.0"
 
 strapi-plugin-email@3.5.2:
@@ -10614,18 +10556,6 @@ strapi-provider-upload-local@3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.2.tgz#fbb3400213e7829885a16b0503f93518f3a74504"
   integrity sha512-DVEfAiO6tUNPw9xblk7z+wFnR0Z5tt8qBQ3gs9al/yeOwQXZmF3/IkKyPuAtaNhXNYe3xg9lzmwMSS8Xu2dgfg==
-
-strapi-utils@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.1.tgz#732d9965617c1630264eac381e5840556c557c40"
-  integrity sha512-jvxTBAUb9OtLHIqh9qxajgAgDiwo35kvbrIudaf3Sz9zXqjyZEvv9zPN7LNPkRuhEkzzKg+zaqN8VP9Ezaf7og==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "^2.8.1"
-    lodash "4.17.20"
-    pino "^4.7.1"
-    pluralize "^8.0.0"
-    yup "0.29.3"
 
 strapi-utils@3.5.2:
   version "3.5.2"
@@ -10863,7 +10793,7 @@ style-loader@^0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-styled-components@^5.0.0, styled-components@^5.2.1:
+styled-components@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-5.2.1.tgz#6ed7fad2dc233825f64c719ffbdedd84ad79101a"
   integrity sha512-sBdgLWrCFTKtmZm/9x7jkIabjFNVzCUeKfoQsM6R3saImkUnjx0QYdLwJHBjY9ifEcmjDamJDVfknWm1yxZPxQ==
