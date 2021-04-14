@@ -8224,10 +8224,15 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-pg-connection-string@2.4.0, pg-connection-string@^2.4.0:
+pg-connection-string@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.4.0.tgz#c979922eb47832999a204da5dbe1ebf2341b6a10"
   integrity sha512-3iBXuv7XKvxeMrIgym7njT+HlZkwZqqGX4Bu9cci8xHZNT+Um1gWKqCsAzcC0d95rcKMU5WBg6YRUcHyV0HZKQ==
+
+pg-connection-string@^2.4.0, pg-connection-string@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.5.0.tgz#538cadd0f7e603fc09a12590f3b8a452c2c0cf34"
+  integrity sha512-r5o/V/ORTA6TmUnyWZR9nCj1klXCO2CEKNRlVuJptZe85QuhFayC7WeMic7ndayT5IRIR0S0xFxFi2ousartlQ==
 
 pg-int8@1.0.1:
   version "1.0.1"
@@ -10320,33 +10325,6 @@ strapi-generate@3.5.4:
     reportback "^2.0.2"
     strapi-utils "3.5.4"
 
-strapi-helper-plugin@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.5.3.tgz#68f992f90a361346083073f8f49c7bfc5607d8a2"
-  integrity sha512-plhaAgyrbKPOJN8S7UDPiGPULwVCbQrPoJ5X7QpXPrh1uHNJFwhxhLrrsIy1TSoWVxdNxa+i9CVIJjRUaN+O7Q==
-  dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
-    bootstrap "^4.6.0"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.20"
-    moment "^2.29.1"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.2.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.2.1"
-    whatwg-fetch "^3.6.2"
-
 strapi-helper-plugin@3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.5.4.tgz#d49d173ccb1c66abbc1e3891fab528400aef1ae2"
@@ -10570,18 +10548,6 @@ strapi-provider-upload-local@3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.4.tgz#175f9534a2fc3b038229d3488b213ed8f5060c41"
   integrity sha512-8n2D8kq846LamaRvSsl4bBFexIiS7cCXxvdHzAb2EfInMXXgm3/eNj9vMOXU9BZ2pC5RyPPIT+hjj5I5qXWSLw==
-
-strapi-utils@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.3.tgz#e2b3974b42fdc98cdc595dba213e05dac1e2f72d"
-  integrity sha512-lxcMIPPKS8ndbJSfJbpioLtRWlq+qr8wGDHPnSOyDpBGgMF4pXyIN3LAG+jXgHn01FDuH/P0qg40JEAP79hN/g==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "^2.19.0"
-    lodash "4.17.20"
-    pino "^4.7.1"
-    pluralize "^8.0.0"
-    yup "0.29.3"
 
 strapi-utils@3.5.4:
   version "3.5.4"
