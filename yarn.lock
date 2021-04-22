@@ -7020,10 +7020,15 @@ lodash.xorby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.xorby/-/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
   integrity sha1-nBmm+fBjputT3QPBtocXmYAUY9c=
 
-lodash@4.17.20, lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3, lodash@^4.17.4:
+lodash@4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+lodash@4.17.21, lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3, lodash@^4.17.4:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -8229,7 +8234,7 @@ pg-connection-string@2.4.0:
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.4.0.tgz#c979922eb47832999a204da5dbe1ebf2341b6a10"
   integrity sha512-3iBXuv7XKvxeMrIgym7njT+HlZkwZqqGX4Bu9cci8xHZNT+Um1gWKqCsAzcC0d95rcKMU5WBg6YRUcHyV0HZKQ==
 
-pg-connection-string@^2.4.0, pg-connection-string@^2.5.0:
+pg-connection-string@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.5.0.tgz#538cadd0f7e603fc09a12590f3b8a452c2c0cf34"
   integrity sha512-r5o/V/ORTA6TmUnyWZR9nCj1klXCO2CEKNRlVuJptZe85QuhFayC7WeMic7ndayT5IRIR0S0xFxFi2ousartlQ==
@@ -10429,14 +10434,14 @@ strapi-plugin-content-type-builder@3.5.4:
     strapi-utils "3.5.4"
     yup "^0.27.0"
 
-strapi-plugin-email@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.5.4.tgz#035e72e6c2c938fe283a9f810b7371fd31f330d3"
-  integrity sha512-wyXPHkSF2AKrSUd6dD8OoyjfbvZte6hDt2qMdcKfJJGlcHNmL13LFEQlWkh7JPfTPqVU+m14Xa2csYQvxqQDcA==
+strapi-plugin-email@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.6.0.tgz#a645b1ef21923956c17ae0eda51aa90625e13a37"
+  integrity sha512-iA6UN/YKqJqFEvGySxzavgnhQv7WqDUAM203RL57+Kkdc2FkpsYG4h3gTCtD9xezi5Ebyftwj6/bqk3RSVfLcw==
   dependencies:
-    lodash "4.17.20"
-    strapi-provider-email-sendmail "3.5.4"
-    strapi-utils "3.5.4"
+    lodash "4.17.21"
+    strapi-provider-email-sendmail "3.6.0"
+    strapi-utils "3.6.0"
 
 strapi-plugin-graphql@3.5.4:
   version "3.5.4"
@@ -10528,13 +10533,13 @@ strapi-plugin-users-permissions@3.5.4:
     strapi-utils "3.5.4"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.5.4.tgz#f21a7fbd965c0987868d2dc21ea317b4a55e77ee"
-  integrity sha512-2ti6EuopAjjerPnF1geyPuEearvJNXSN471PJavpF2Q45EdFvwMuMe8T35aSgQFQipcxwomI+GclEE67zXth3A==
+strapi-provider-email-sendmail@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.6.0.tgz#abc9ce8b9c6e51ccf658f6bfab98acbacb05e850"
+  integrity sha512-xXzHN6rWzd70dxUbiDxVOIC3KUcUMNZBgL/ckdMMLGNwOCc3wNjODv1w4gy6nxE2Dq0S5OU4f67LxwFDG4Ea4w==
   dependencies:
     sendmail "^1.6.1"
-    strapi-utils "3.5.4"
+    strapi-utils "3.6.0"
 
 strapi-provider-upload-aws-s3@^3.5.4:
   version "3.5.4"
@@ -10557,6 +10562,18 @@ strapi-utils@3.5.4:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.19.0"
     lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.6.0.tgz#0b608c95170dd2687d6ab93845cfa007d27d08d2"
+  integrity sha512-UgXejSAgOGKsN99c7B/dslV5UJTFIxHXYOKlKEomQWLvK3cUxqN4T9maUxbncyyMvZ/QIvUkyjRuRv71DndNbg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.19.0"
+    lodash "4.17.21"
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
