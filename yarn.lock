@@ -3576,10 +3576,10 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codemirror@^5.59.4:
-  version "5.59.4"
-  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.59.4.tgz#bfc11c8ce32b04818e8d661bbd790a94f4b3a6f3"
-  integrity sha512-achw5JBgx8QPcACDDn+EUUXmCYzx/zxEtOGXyjvLEvYY8GleUrnfm5D+Zb+UjShHggXKDT9AXrbkBZX6a0YSQg==
+codemirror@^5.60.0:
+  version "5.61.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.61.0.tgz#318e5b034a707207948b92ffc2862195e8fdb08e"
+  integrity sha512-D3wYH90tYY1BsKlUe0oNj2JAhQ9TepkD51auk3N7q+4uz7A/cgJ5JsWHreT0PqieW1QhOuqxQ2reCXV1YXzecg==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -7335,10 +7335,10 @@ markdown-it-sup@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-sup/-/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
   integrity sha1-y5yf+RpSVawI8/09YyhuFd8KH8M=
 
-markdown-it@^12.0.4:
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.4.tgz#eec8247d296327eac3ba9746bdeec9cfcc751e33"
-  integrity sha512-34RwOXZT8kyuOJy25oJNJoulO8L0bTHYWXcdZBYZqFnjIy3NgjeoM3FmPXIOFQ26/lSHYMr8oc62B6adxXcb3Q==
+markdown-it@^12.0.6:
+  version "12.0.6"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.6.tgz#adcc8e5fe020af292ccbdf161fe84f1961516138"
+  integrity sha512-qv3sVLl4lMT96LLtR7xeRJX11OUFjsaD5oVat2/SNBIb21bJXwal2+SklcRbTwGwqWpWH/HRtYavOoJE+seL8w==
   dependencies:
     argparse "^2.0.1"
     entities "~2.1.0"
@@ -10555,25 +10555,25 @@ strapi-helper-plugin@3.6.0:
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
-strapi-plugin-content-manager@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.5.4.tgz#c05c0c30ba698f18f6a72bf3f734609ced962d1a"
-  integrity sha512-ffJns8c8cxL1IZX0j8H35DzZERYTkRthUDystsLnxQi4XtDC29pztdXqBZvFBC3aYXV8PmSqT65kkHEQlIu0Uw==
+strapi-plugin-content-manager@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.6.0.tgz#61974d703e307b05322c9703abf9b5d3106cffe9"
+  integrity sha512-VXAZwDdBRtroPd9o5avnyycBP+q87HfzcDueMJKsOnD7yuSfXY4sfrcvgyBlFg1JYXVWDvLuQVSKgZWVsgt4aA==
   dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
+    "@buffetjs/core" "3.3.5"
+    "@buffetjs/custom" "3.3.5"
+    "@buffetjs/hooks" "3.3.5"
+    "@buffetjs/icons" "3.3.5"
+    "@buffetjs/styles" "3.3.5"
+    "@buffetjs/utils" "3.3.5"
     "@sindresorhus/slugify" "1.1.0"
-    classnames "^2.2.6"
-    codemirror "^5.59.4"
+    classnames "^2.3.1"
+    codemirror "^5.60.0"
     draft-js "^0.11.5"
     highlight.js "^10.4.1"
     immutable "^3.8.2"
-    lodash "4.17.20"
-    markdown-it "^12.0.4"
+    lodash "4.17.21"
+    markdown-it "^12.0.6"
     markdown-it-abbr "^1.0.4"
     markdown-it-container "^3.0.0"
     markdown-it-deflist "^2.0.3"
@@ -10584,11 +10584,11 @@ strapi-plugin-content-manager@3.5.4:
     markdown-it-sub "^1.0.0"
     markdown-it-sup "^1.0.0"
     pluralize "^8.0.0"
-    react "^16.13.1"
+    react "^16.14.0"
     react-dom "^16.9.0"
     react-fast-compare "^3.2.0"
     react-intl "4.5.0"
-    react-redux "^7.2.2"
+    react-redux "7.2.3"
     react-router "^5.2.0"
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
@@ -10596,8 +10596,8 @@ strapi-plugin-content-manager@3.5.4:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.3.3"
-    strapi-helper-plugin "3.5.4"
-    strapi-utils "3.5.4"
+    strapi-helper-plugin "3.6.0"
+    strapi-utils "3.6.0"
     yup "^0.27.0"
 
 strapi-plugin-content-type-builder@3.5.4:
