@@ -9025,17 +9025,6 @@ react-query@3.8.3:
     "@babel/runtime" "^7.5.5"
     match-sorter "^6.0.2"
 
-react-redux@7.2.2:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.2.tgz#03862e803a30b6b9ef8582dadcc810947f74b736"
-  integrity sha512-8+CQ1EvIVFkYL/vu6Olo7JFLWop1qRUeb46sGtIMDCSpgwPQq8fPLpirIB0iTqFe9XYEFPHssdX8/UwN6pAkEA==
-  dependencies:
-    "@babel/runtime" "^7.12.1"
-    hoist-non-react-statics "^3.3.2"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
-    react-is "^16.13.1"
-
 react-redux@7.2.3, react-redux@^7.2.2:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.3.tgz#4c084618600bb199012687da9e42123cca3f0be9"
@@ -10365,6 +10354,15 @@ strapi-generate-api@3.5.4:
     pluralize "^8.0.0"
     strapi-utils "3.5.4"
 
+strapi-generate-api@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.6.0.tgz#0aa173212d6349f46250c3e3ff388f5b2842348d"
+  integrity sha512-y7mLC0OEf/Lv2OJ3Qfb1AFUbsgh+RDmspoMk8NMfE5Dm7LxkZGfteb0BP3RhXK4/7JyDZd4kg13fTMzereELyA==
+  dependencies:
+    lodash "4.17.21"
+    pluralize "^8.0.0"
+    strapi-utils "3.6.0"
+
 strapi-generate-controller@3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.5.4.tgz#49ba71a5e9de448b7c59c184ac795a7f2cdf0edb"
@@ -10435,6 +10433,17 @@ strapi-generate@3.5.4:
     lodash "4.17.20"
     reportback "^2.0.2"
     strapi-utils "3.5.4"
+
+strapi-generate@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.6.0.tgz#8e86fa9cede3093f26baae21c32159a290471c3a"
+  integrity sha512-9VKdkOmcroCKWkVS+JKKTyp5RhLyrm3UnaqpYJL4NOKTdhDw77oxZFzeB1wlfqrbDtz3A2jyRVTyxS3jlIdkvA==
+  dependencies:
+    async "^2.6.2"
+    fs-extra "^9.1.0"
+    lodash "4.17.21"
+    reportback "^2.0.2"
+    strapi-utils "3.6.0"
 
 strapi-helper-plugin@3.5.4:
   version "3.5.4"
@@ -10540,36 +10549,36 @@ strapi-plugin-content-manager@3.6.0:
     strapi-utils "3.6.0"
     yup "^0.27.0"
 
-strapi-plugin-content-type-builder@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.5.4.tgz#fb3642dae9f68a80101cc0fcf81c0b6f533f009e"
-  integrity sha512-Mx+34RChuxuR60h/ZV64Z6Rpyf7rT4WZGncgIpMwyifScHIyoko9pIuDXV1+Z2Kck6tdK7i2vfMNZbh/U3KmQg==
+strapi-plugin-content-type-builder@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.0.tgz#e1e4e2e010b5e05bea8ee245e1a66be912296474"
+  integrity sha512-T3OcuOgik57VhIGfq45HFGXs1Tbk6GysINh/3lkgBySuibQcReJ6NjuR763zRyeyLfcXHDTLOHpCm+v0Ki4QZQ==
   dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
+    "@buffetjs/core" "3.3.5"
+    "@buffetjs/custom" "3.3.5"
+    "@buffetjs/hooks" "3.3.5"
+    "@buffetjs/icons" "3.3.5"
+    "@buffetjs/styles" "3.3.5"
+    "@buffetjs/utils" "3.3.5"
     "@sindresorhus/slugify" "1.1.0"
     fs-extra "^9.1.0"
     immutable "^3.8.2"
-    lodash "4.17.20"
+    lodash "4.17.21"
     pluralize "^8.0.0"
-    react "^16.13.1"
+    react "^16.14.0"
     react-dom "^16.9.0"
     react-intl "4.5.0"
-    react-redux "7.2.2"
+    react-redux "7.2.3"
     react-router "^5.2.0"
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.5.4"
-    strapi-generate-api "3.5.4"
-    strapi-helper-plugin "3.5.4"
-    strapi-utils "3.5.4"
+    strapi-generate "3.6.0"
+    strapi-generate-api "3.6.0"
+    strapi-helper-plugin "3.6.0"
+    strapi-utils "3.6.0"
     yup "^0.27.0"
 
 strapi-plugin-email@3.6.0:
