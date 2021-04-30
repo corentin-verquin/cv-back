@@ -2661,10 +2661,10 @@ autoprefixer@^9.8.6:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-aws-sdk@2.888.0:
-  version "2.888.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.888.0.tgz#7b1c0c90b665a40623c0291e3945b7fc87a9a530"
-  integrity sha512-9Rg14eneXnrs5Wh5FL42qGEXf7QaqaV/gMHU9SfvAA0SEM390QnwVjCSKF5YAReWjSuJriKJTDiodMI39J+Nrg==
+aws-sdk@2.892.0:
+  version "2.892.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.892.0.tgz#adec48f52f4b6f5c576dcbfac020bcec1eed3a25"
+  integrity sha512-OOXJ15AnJJMHZYXJQVy22Wjnp5GrZCfvCxmoZuXdsLNs8M+BL4mfBqma82+UkM2NhJgLYuAhDfvFUBob6VGIWw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -10564,30 +10564,18 @@ strapi-provider-email-sendmail@3.6.0:
     sendmail "^1.6.1"
     strapi-utils "3.6.0"
 
-strapi-provider-upload-aws-s3@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.6.0.tgz#6292596d9bb740c088f825e5d7655ccb3fb0ee61"
-  integrity sha512-jyjGk4HrXRHKzKSER0lYLULV5EtC050hYPpoP9+BbYAaeMoGi9rfCIu2CF+aOW5G2+4rfFtdXrmRtjOoFJIVsg==
+strapi-provider-upload-aws-s3@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-aws-s3/-/strapi-provider-upload-aws-s3-3.6.1.tgz#9892215f1a01793e269c58e6a276f1a923298a95"
+  integrity sha512-5lKjbwu4RbR/yenjTHsBI47+Ata8XLJfnE+yKZT0AhscY7c08vb8NWN30Vywansiv9lfd2SLt0CAzkzXbgucbg==
   dependencies:
-    aws-sdk "2.888.0"
+    aws-sdk "2.892.0"
     lodash "4.17.21"
 
 strapi-provider-upload-local@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.0.tgz#508cbce4039e8912b09b5116a4983da559a9f09f"
   integrity sha512-YLmdrGBWYHu33xq13tEgcx6i+lnqo5Qra15kX+OtbivhKXMMEBBQLk2Nh2oLy3tr+z3zSFWu6NQOljsVTNn/HQ==
-
-strapi-utils@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.4.tgz#976420af6a0bad888c3d5ffe0f707cc7bc63264e"
-  integrity sha512-+8/x6hW07F9yVGYi3ZS3hIxxNODIS5UX745bMXN36m/CF0L4bmsQGVxr09evD+DErOoZ0VGEv9NeO7yFiHvE9Q==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "^2.19.0"
-    lodash "4.17.20"
-    pino "^4.7.1"
-    pluralize "^8.0.0"
-    yup "0.29.3"
 
 strapi-utils@3.6.0:
   version "3.6.0"
