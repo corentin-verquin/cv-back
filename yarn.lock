@@ -10277,10 +10277,10 @@ strapi-admin@3.6.3:
     webpackbar "^4.0.0"
     yup "^0.28.2"
 
-strapi-connector-bookshelf@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.6.2.tgz#be8d80d2203d7b509a441b2564eddedade975944"
-  integrity sha512-TEhg0NHzIlY1ynoxlcbdvfjHitmQSvelitffntZQUPEYURA2cv/EHs9EuMNAnGyry1C8zpyF6Zsk6/93O1hHQw==
+strapi-connector-bookshelf@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.6.3.tgz#4edcb70a6be3badc3e8a7aa1aa0d95d04de44c40"
+  integrity sha512-NWgGaZ5xo5f/jLxTVjlvjnR+FubZ/jHW+7lLWSq/ST+p6moNx2uQ5rIWPJIKZEMgMldOHOoJBSoqCP0zgTwTuw==
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.19.0"
@@ -10289,7 +10289,7 @@ strapi-connector-bookshelf@3.6.2:
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.2"
-    strapi-utils "3.6.2"
+    strapi-utils "3.6.3"
 
 strapi-database@3.6.2:
   version "3.6.2"
@@ -10401,38 +10401,6 @@ strapi-generate@3.6.3:
     lodash "4.17.21"
     reportback "^2.0.2"
     strapi-utils "3.6.3"
-
-strapi-helper-plugin@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.6.2.tgz#ab46db4801da4e511f4c13a757de0d906032104a"
-  integrity sha512-831IAYkFIyp6KBpccbkYbRD8sU4AI2AoksTkXi4eU8DNEEW47Lg7wyOwt8aSmsT5/5YbfnRV0cdNS3vgedK43w==
-  dependencies:
-    "@buffetjs/core" "3.3.6"
-    "@buffetjs/custom" "3.3.6"
-    "@buffetjs/hooks" "3.3.6"
-    "@buffetjs/icons" "3.3.6"
-    "@buffetjs/styles" "3.3.6"
-    "@buffetjs/utils" "3.3.6"
-    "@fortawesome/fontawesome-free" "^5.15.2"
-    "@fortawesome/fontawesome-svg-core" "^1.2.35"
-    "@fortawesome/free-brands-svg-icons" "^5.15.2"
-    "@fortawesome/free-solid-svg-icons" "^5.15.3"
-    "@fortawesome/react-fontawesome" "^0.1.14"
-    bootstrap "^4.6.0"
-    classnames "^2.3.1"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.21"
-    moment "^2.29.1"
-    react "^16.14.0"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.2.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.2.3"
-    whatwg-fetch "^3.6.2"
 
 strapi-helper-plugin@3.6.3:
   version "3.6.3"
