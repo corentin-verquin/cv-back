@@ -10382,15 +10382,6 @@ strapi-database@3.6.5:
     strapi-utils "3.6.5"
     verror "^1.10.0"
 
-strapi-generate-api@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.6.3.tgz#2af594f2daf9e52b639001dff7c4ec03028ab307"
-  integrity sha512-VORX51utIMUvDFizFlwakyH2DwJWgzYkosyhkecVthwiCUBU0EI9KXaGdnFahGQ5IELKv1mBWFFrdjUjw/wELw==
-  dependencies:
-    lodash "4.17.21"
-    pluralize "^8.0.0"
-    strapi-utils "3.6.3"
-
 strapi-generate-api@3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.6.5.tgz#5263f2fff2e8b327e3efd1f7b5de398ebb7ebf35"
@@ -10459,17 +10450,6 @@ strapi-generate-service@3.6.5:
   dependencies:
     lodash "4.17.21"
     strapi-utils "3.6.5"
-
-strapi-generate@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.6.3.tgz#9cf2c35a3450aee80d01f20a53458e9b9d9e05c1"
-  integrity sha512-X2KhezV0bTRZHZruqmH7oFQOxrGLRDKqobsyYD6VZE/KFPtYRZ3mUzymQE5rJJ+BOymi5xxdPFPr4uCa0Z54yQ==
-  dependencies:
-    async "^2.6.2"
-    fs-extra "^9.1.0"
-    lodash "4.17.21"
-    reportback "^2.0.2"
-    strapi-utils "3.6.3"
 
 strapi-generate@3.6.5:
   version "3.6.5"
@@ -10591,10 +10571,10 @@ strapi-plugin-content-manager@3.6.5:
     strapi-utils "3.6.5"
     yup "^0.32.9"
 
-strapi-plugin-content-type-builder@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.3.tgz#430a66d45b97870b62b9e9a102c335cb90923da3"
-  integrity sha512-gy63BflDzLWzjqtI4MsUN//v2mun6kBflohm+mPwIQlSIODazQ4ukLg6SQHOualxtraKaZluaX2gi+K92c03nw==
+strapi-plugin-content-type-builder@3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.6.5.tgz#bca678dc737fa8f54b0e131be654175b833630ad"
+  integrity sha512-7tIXIYqupwWMBpwqIp0VADuAhlq7pCPgmGs7pLMIAmPH9tY/+97//PvWctRPEOi9z90ojnlfr7Bpx7YzMkkNNA==
   dependencies:
     "@buffetjs/core" "3.3.6"
     "@buffetjs/custom" "3.3.6"
@@ -10617,11 +10597,11 @@ strapi-plugin-content-type-builder@3.6.3:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.6.3"
-    strapi-generate-api "3.6.3"
-    strapi-helper-plugin "3.6.3"
-    strapi-utils "3.6.3"
-    yup "^0.28.2"
+    strapi-generate "3.6.5"
+    strapi-generate-api "3.6.5"
+    strapi-helper-plugin "3.6.5"
+    strapi-utils "3.6.5"
+    yup "^0.32.9"
 
 strapi-plugin-email@3.6.5:
   version "3.6.5"
