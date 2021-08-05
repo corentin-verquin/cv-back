@@ -10738,17 +10738,17 @@ strapi-plugin-upload@3.6.5:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.6.5.tgz#fe536cfcb20a16bb8c3e45f0db4655cf4b2199c8"
-  integrity sha512-nzNvF1bJZcrjUoGWUfG2u0XT9462Cjz73opFkXHRMlw+lbmyhtqquZDAY7s+EDavjmzxRU6kZ5O6dJLQAEHazA==
+strapi-plugin-users-permissions@3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.6.6.tgz#dc1d59336ed76b70b32308cdad7b0a032e0200af"
+  integrity sha512-QXM0MxqcU2+rddZcT9nxV+VMh4wYtR8nqPacPpyL2U4gL8KlnLYdlWMc8UPyevG1KuYtDmQN/BRxCthAGpWdgg==
   dependencies:
-    "@buffetjs/core" "3.3.6"
-    "@buffetjs/custom" "3.3.6"
-    "@buffetjs/hooks" "3.3.6"
-    "@buffetjs/icons" "3.3.6"
-    "@buffetjs/styles" "3.3.6"
-    "@buffetjs/utils" "3.3.6"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@purest/providers" "^1.0.2"
     bcryptjs "^2.4.3"
     grant-koa "5.4.8"
@@ -10766,8 +10766,8 @@ strapi-plugin-users-permissions@3.6.5:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.6.5"
-    strapi-utils "3.6.5"
+    strapi-helper-plugin "3.6.6"
+    strapi-utils "3.6.6"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.6.6:
