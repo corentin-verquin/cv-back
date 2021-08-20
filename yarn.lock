@@ -10599,10 +10599,10 @@ strapi-plugin-email@3.6.7:
     strapi-provider-email-sendmail "3.6.7"
     strapi-utils "3.6.7"
 
-strapi-plugin-graphql@3.6.6:
-  version "3.6.6"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.6.6.tgz#1f349e7d7eb07088735f191f73502f1c68848bac"
-  integrity sha512-2VIkvdpGESXJi4DZrcNPFEQaxsXQDs8qtijztf3slqbUoaaNeZ9vxWmpDrsqGQhHs1f9OUdNx2O+b8ii+PMe7w==
+strapi-plugin-graphql@3.6.7:
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.6.7.tgz#44af8817c6455aa1981569e99b1393e8f782076c"
+  integrity sha512-ZHbW/ZdUkrL/pEV5PHib7uKHR9zMLU/Xrwtf/LovMQPYbkWgjCKTPCEdgtM86IgWHih69s1mkg3M9Z/3oXCyKA==
   dependencies:
     "@apollo/federation" "^0.20.7"
     "@graphql-tools/utils" "7.2.4"
@@ -10620,7 +10620,7 @@ strapi-plugin-graphql@3.6.6:
     koa-compose "^4.1.0"
     lodash "4.17.21"
     pluralize "^8.0.0"
-    strapi-utils "3.6.6"
+    strapi-utils "3.6.7"
 
 strapi-plugin-upload@3.6.7:
   version "3.6.7"
