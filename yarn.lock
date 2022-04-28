@@ -10698,10 +10698,10 @@ strapi-plugin-upload@3.6.9:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.6.8:
-  version "3.6.8"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.6.8.tgz#7a46c73bb19881607afae3c527eca8835d532210"
-  integrity sha512-DZPPYMUzcDxadc3BHntEobVwrWwYsI1hHK+ENTU0EVD1w9Zi4h41Bae5DKIuqwRCK2G24Dsmr5G/edcVCFeRCg==
+strapi-plugin-users-permissions@3.6.9:
+  version "3.6.9"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.6.9.tgz#b18e0c6cc77e93c108d8ca2424b1ea8fbe2ac007"
+  integrity sha512-FpGvQZwL8FwBZEe6C7ktFaEmzzYdrkIy3TpnzEnqYNoK5lp/VWpWoZQzALgDSTQFg5cPG2YwAk/NNxMspA+x6w==
   dependencies:
     "@buffetjs/core" "3.3.8"
     "@buffetjs/custom" "3.3.8"
@@ -10726,8 +10726,8 @@ strapi-plugin-users-permissions@3.6.8:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.6.8"
-    strapi-utils "3.6.8"
+    strapi-helper-plugin "3.6.9"
+    strapi-utils "3.6.9"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.6.9:
