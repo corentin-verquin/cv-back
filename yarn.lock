@@ -10611,14 +10611,14 @@ strapi-plugin-content-type-builder@3.6.10:
     strapi-utils "3.6.10"
     yup "^0.32.9"
 
-strapi-plugin-email@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.6.9.tgz#88c3420f45f48263c6d509e190156501c22f1ec9"
-  integrity sha512-YbyA8uFCdHx22Z4smQaXZKzceoe/d5KlCFTjOJHAnDw1knLm/9iZkm/WmVM7wxp90QCMxIfd/11I4GlRtFSADA==
+strapi-plugin-email@3.6.10:
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.6.10.tgz#f63efdb5167e469ae5a5f86c9db15760f8661de5"
+  integrity sha512-WrwOW+htVjobKj7d1fPcUpasN2ycz0Sbf++Us8mTgrcYy6UwTxPQSd8twwNRrTDywY3C7p0t77ypx6tXohy8/A==
   dependencies:
     lodash "4.17.21"
-    strapi-provider-email-sendmail "3.6.9"
-    strapi-utils "3.6.9"
+    strapi-provider-email-sendmail "3.6.10"
+    strapi-utils "3.6.10"
 
 strapi-plugin-graphql@3.6.10:
   version "3.6.10"
@@ -10710,13 +10710,13 @@ strapi-plugin-users-permissions@3.6.10:
     strapi-utils "3.6.10"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.6.9.tgz#21852c69bab37830c3513a1ca18de81cd31e286c"
-  integrity sha512-Lz+wfC2zyYfxdk1imC3ktfqdzbCgK42/at8Vsbz8oxQkOiXs7rY7dRnqWlTi9qdMl00OhBWxKV1xD7dPkZ3qzA==
+strapi-provider-email-sendmail@3.6.10:
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.6.10.tgz#72940383b940cae68f061d33b4d75ddbc54d7263"
+  integrity sha512-o48Ut2w1QZ1PkAziENDcIjvvBI++p4afZgSmcNmjr9gZ/hmSzpczfXos0Cb+eb93TMo/mT+4TqfFhDYfjlCN/w==
   dependencies:
     sendmail "^1.6.1"
-    strapi-utils "3.6.9"
+    strapi-utils "3.6.10"
 
 strapi-provider-upload-aws-s3@^3.6.10:
   version "3.6.10"
