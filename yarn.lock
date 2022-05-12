@@ -10260,10 +10260,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^1.6.0"
 
-strapi-admin@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.6.9.tgz#fc09f3e8c222cc95855210ba74d25199332b1401"
-  integrity sha512-XFJVGqpSs6bprybCxoq9wMFJfveAj0HksQ3I7LbaZxbA5jDrtemJtCughtkxqK4GkdawuFySOr0SqQNGYc+d7g==
+strapi-admin@3.6.10:
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.6.10.tgz#fd0252ced1306568a20b95196922157edde4d7f5"
+  integrity sha512-Q8InzFDEWwjk/AGVGMFXJKrupaWCBSnl92MacXpCa1qwrmuIrKYory1Vfqno5UJfNp8RJf6NFD8oEUwZrqmBOg==
   dependencies:
     "@babel/core" "^7.14.0"
     "@babel/plugin-proposal-async-generator-functions" "^7.13.15"
@@ -10352,8 +10352,8 @@ strapi-admin@3.6.9:
     sanitize.css "^4.1.0"
     semver "7.3.5"
     sift "13.5.0"
-    strapi-helper-plugin "3.6.9"
-    strapi-utils "3.6.9"
+    strapi-helper-plugin "3.6.10"
+    strapi-utils "3.6.10"
     style-loader "^0.23.1"
     styled-components "^5.2.3"
     terser-webpack-plugin "^1.2.3"
