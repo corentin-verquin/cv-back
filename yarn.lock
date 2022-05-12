@@ -10399,15 +10399,6 @@ strapi-generate-api@3.6.10:
     pluralize "^8.0.0"
     strapi-utils "3.6.10"
 
-strapi-generate-api@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.6.9.tgz#92e46a71867a709328e1876789cc684c3ddf13bc"
-  integrity sha512-kkn+gA7ANXZkp9fl85fKhTJWL0n6qplE9+I8QjsE7M5uJQQvRfoHX0liTMoIaOKNmKbf5G6+LRfN90hP1K1BSQ==
-  dependencies:
-    lodash "4.17.21"
-    pluralize "^8.0.0"
-    strapi-utils "3.6.9"
-
 strapi-generate-controller@3.6.10:
   version "3.6.10"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.6.10.tgz#d39e32663958fce3b6289e03ba3dbea1106cef31"
@@ -10478,28 +10469,6 @@ strapi-generate@3.6.10:
     lodash "4.17.21"
     reportback "^2.0.2"
     strapi-utils "3.6.10"
-
-strapi-generate@3.6.10:
-  version "3.6.10"
-  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.6.10.tgz#dba87044c4c788f48c8b7e65ca2b780fcf9d0765"
-  integrity sha512-+C0iKhRaSwNNJdrnM9ripgJdQwcseNjZ1xB/iCL07VAUDh4HrFQ7DyWf2I0D27QRj/esCwAkvpNaSrB3f2Cj/w==
-  dependencies:
-    async "^2.6.2"
-    fs-extra "^9.1.0"
-    lodash "4.17.21"
-    reportback "^2.0.2"
-    strapi-utils "3.6.10"
-
-strapi-generate@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.6.9.tgz#12ed9573def7e12443dd6b250c3bd8b1a1849f27"
-  integrity sha512-OUP2gMvzJ71c2jr489SchTuUsiEJcVmr+yXLyIXoQJgdrRR65YVSOIi4n6Sc58BwVg52og1pH1WbLsv4rl2B8w==
-  dependencies:
-    async "^2.6.2"
-    fs-extra "^9.1.0"
-    lodash "4.17.21"
-    reportback "^2.0.2"
-    strapi-utils "3.6.9"
 
 strapi-helper-plugin@3.6.10:
   version "3.6.10"
@@ -10674,10 +10643,10 @@ strapi-plugin-graphql@3.6.10:
     pluralize "^8.0.0"
     strapi-utils "3.6.10"
 
-strapi-plugin-upload@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.6.9.tgz#40c6c8b02acc2da51938fbf72098cae02a7035fe"
-  integrity sha512-7kbHj+Q1mZozL4CkFkfeIys8vCRrYLCGMxpAd79Dv4FsWyuxOxlIRxTOKNyOT8/4mXdtwpsX5WL1tlKX4mkHEg==
+strapi-plugin-upload@3.6.10:
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-upload/-/strapi-plugin-upload-3.6.10.tgz#53298b44fcea2e37b1172db957d030d163c52a29"
+  integrity sha512-2+lbfPBaTrYFXT4yhloXq5qQfKHoFx/MDmm/wIzBJWbOvj2KKO1fRZxPBaQjJ54kk+A9/GsuoFbnUNVwmsNp4g==
   dependencies:
     "@buffetjs/core" "3.3.8"
     "@buffetjs/custom" "3.3.8"
@@ -10703,9 +10672,9 @@ strapi-plugin-upload@3.6.9:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.29.0"
-    strapi-helper-plugin "3.6.9"
-    strapi-provider-upload-local "3.6.9"
-    strapi-utils "3.6.9"
+    strapi-helper-plugin "3.6.10"
+    strapi-provider-upload-local "3.6.10"
+    strapi-utils "3.6.10"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
@@ -10757,10 +10726,10 @@ strapi-provider-upload-aws-s3@^3.6.9:
     aws-sdk "2.892.0"
     lodash "4.17.21"
 
-strapi-provider-upload-local@3.6.9:
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.9.tgz#77b1d2185af459d3119f7f2a82e7c275424873db"
-  integrity sha512-cahabo9WudxueZzyEqB4GLtc7RPEH3bEQDKDToUu/w29iUPqgKCaxyeHetwmIOpwRIYrB1F34VZm1bGlugSv6w==
+strapi-provider-upload-local@3.6.10:
+  version "3.6.10"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.6.10.tgz#9a608d00d594dc98134e5ece2b5bc81b5a834512"
+  integrity sha512-ssS3Hiefh5GBUuw1HdcJXbc68yQcm/+D+j6myzIkxNBO2IqI1QvZ8XEfz3UoXcc5Op9I4BmNJtYOrvsJRr5qyg==
 
 strapi-utils@3.6.10:
   version "3.6.10"
