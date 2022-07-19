@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "<2.2.0",
+    "knex": "<2.3.0",
     "pg": "latest",
     "pg-connection-string": "^2.5.0",
     "strapi": "3.6.10",
